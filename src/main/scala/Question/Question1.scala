@@ -38,6 +38,10 @@ object Question1 extends App {
           println(s"Invalid line format: $line")
       }
     }
-  } finally
+  }catch {
+    case e: Exception =>
+      println(s"An error occurred: ${e.getMessage}")
+  }
+  finally
     inputStream.close()
 }
