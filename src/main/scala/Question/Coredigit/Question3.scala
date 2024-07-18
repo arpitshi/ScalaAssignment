@@ -1,4 +1,5 @@
-package Question
+package Question.Coredigit
+
 import scala.annotation.tailrec
 import scala.io.Source
 
